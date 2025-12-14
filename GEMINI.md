@@ -10,6 +10,8 @@
 - **Styling**: Tailwind CSS v4 (Deep Teal Theme)
 - **UI Components**: Shadcn UI (bits-ui + tailwind-merge)
 - **Runtime**: Bun / Node
+- **AI**: Google Gemini API (@google/generative-ai)
+- **Design**: Canva Button SDK Integration
 
 ## Branding
 - **Name**: Trim.io
@@ -22,6 +24,10 @@
 - **State Management**: Svelte 5 Runes ($state).
 - **Database**: Mocked for now / Supabase (future).
 
+## Key Features
+- **AI Content Generator**: Uses Gemini Flash 1.5 to generate engaging social posts based on topic and tone.
+- **Design Studio**: Integrated Canva Button for designing visuals directly within the app.
+
 ## Pages & Routes
 - `/`: Landing page (Public)
 - `/login`: Login page (Public)
@@ -33,6 +39,7 @@
 - `/app/analytics`: Performance stats (Protected)
 - `/app/accounts`: Social media account linking (Protected)
 - `/app/settings`: User settings (Protected)
+- `/api/generate-post`: Backend endpoint for AI generation
 
 ## Workflow
 1. Plan & Design
