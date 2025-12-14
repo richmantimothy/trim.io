@@ -4,31 +4,34 @@
 
 <div class="flex min-h-screen flex-col">
 	<header class="container flex h-14 items-center px-4 lg:px-6">
-		<a class="flex items-center justify-center" href="/">
-			<span class="text-xl font-bold">SocialAI</span>
+		<a class="flex items-center justify-center gap-2" href="/">
+			<div class="bg-primary text-primary-foreground p-1 rounded-md">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scissors"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.47" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>
+			</div>
+			<span class="text-xl font-bold tracking-tight">Trim.io</span>
 		</a>
 		<nav class="ml-auto flex gap-4 sm:gap-6">
-			<a class="text-sm font-medium hover:underline underline-offset-4" href="#features">Features</a>
-			<a class="text-sm font-medium hover:underline underline-offset-4" href="#pricing">Pricing</a>
-			<a class="text-sm font-medium hover:underline underline-offset-4" href="/login">Login</a>
+			<a class="text-sm font-medium hover:text-primary transition-colors" href="#features">Features</a>
+			<a class="text-sm font-medium hover:text-primary transition-colors" href="#pricing">Pricing</a>
+			<a class="text-sm font-medium hover:text-primary transition-colors" href="/login">Login</a>
 		</nav>
 	</header>
 	<main class="flex-1">
-		<section class="w-full py-12 md:py-24 lg:py-32 xl:py-48">
+		<section class="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-gradient-to-b from-background to-secondary/20">
 			<div class="container px-4 md:px-6">
 				<div class="flex flex-col items-center space-y-4 text-center">
 					<div class="space-y-2">
-						<h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none">
-							Supercharge Your Social Media with AI
+						<h1 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-primary">
+							Trim Your Social Media Workflow
 						</h1>
 						<p class="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-							Create, schedule, and analyze your content with the power of artificial intelligence.
-							Save time and grow your audience.
+							The all-in-one platform to manage, schedule, and analyze your social presence. 
+							Cut the noise, focus on growth.
 						</p>
 					</div>
 					<div class="space-x-4">
-						<Button href="/signup" size="lg">Get Started</Button>
-						<Button href="#features" variant="outline" size="lg">Learn More</Button>
+						<Button href="/signup" size="lg" class="px-8 shadow-lg">Start Free Trial</Button>
+						<Button href="#features" variant="outline" size="lg">See Features</Button>
 					</div>
 				</div>
 			</div>
@@ -116,7 +119,7 @@
 		</section>
 	</main>
 	<footer class="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
-		<p class="text-xs text-gray-500 dark:text-gray-400">© 2025 SocialAI. All rights reserved.</p>
+		<p class="text-xs text-gray-500 dark:text-gray-400">© 2025 Trim.io. All rights reserved.</p>
 		<nav class="sm:ml-auto flex gap-4 sm:gap-6">
 			<a class="text-xs hover:underline underline-offset-4" href="#">Terms of Service</a>
 			<a class="text-xs hover:underline underline-offset-4" href="#">Privacy</a>
