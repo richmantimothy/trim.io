@@ -1,14 +1,20 @@
-# SocialAI - AI Social Media Management Tool
+# Trim.io - AI Social Media Management Tool
 
 ## Project Overview
-An AI-powered social media management platform for marketing agencies. Features include AI content generation, post scheduling, and analytics.
+**Trim.io** is an AI-powered social media management platform for marketing agencies. Features include AI content generation, post scheduling, and analytics.
+*Brand Promise*: "Trim the noise, focus on growth."
 
 ## Tech Stack
 - **Framework**: SvelteKit (Runes)
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **UI Components**: Shadcn UI (planned)
+- **Styling**: Tailwind CSS v4 (Deep Teal Theme)
+- **UI Components**: Shadcn UI (bits-ui + tailwind-merge)
 - **Runtime**: Bun / Node
+
+## Branding
+- **Name**: Trim.io
+- **Theme**: Deep Teal (Primary: `#0f766e`, HSL: `175 77% 26%`) & Clean White.
+- **Font**: Inter (Sans-serif)
 
 ## Architecture
 - **Frontend**: SvelteKit with server-side rendering.
